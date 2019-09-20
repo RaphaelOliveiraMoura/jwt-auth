@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "a project to learn about jwt authentication",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/graphql": "^14.5.0",
+    "@types/node": "^12.7.5",
+    "ts-node": "8.4.1",
+    "typescript": "3.6.3"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.9.3",
+    "express": "^4.17.1",
+    "graphql": "^14.5.6",
+    "mysql": "^2.14.1",
+    "reflect-metadata": "^0.1.10",
+    "type-graphql": "^0.17.5",
+    "typeorm": "0.2.19"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  }
+}
